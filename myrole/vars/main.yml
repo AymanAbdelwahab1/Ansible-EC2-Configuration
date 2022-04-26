@@ -1,0 +1,4 @@
+---
+# vars file for myrole
+appname: myapp
+appurl: www.test.com

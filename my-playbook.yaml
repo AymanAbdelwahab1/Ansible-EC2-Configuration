@@ -1,0 +1,8 @@
+- hosts: hosts
+  vars_prompt:
+    name: username
+    prompt: "please enter your name"
+  remote_user: ububntu
+  become: yes
+  roles:
+    - myrole
